@@ -6,7 +6,7 @@
 #    By: pudry <pudry@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/27 09:01:54 by pudry             #+#    #+#              #
-#    Updated: 2024/09/11 11:27:10 by pudry            ###   ########.fr        #
+#    Updated: 2024/09/11 14:40:35 by pudry            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,12 +43,10 @@ $(NAME): $(SRC) $(OBJ)
 clean:
 	@rm -rf objet/
 	@make clean -C $(LIBFT)
-	@echo "${GREEN}ft_printf clean${RESET}"
 
 fclean: clean
 	@rm -f $(NAME)
 	@make fclean -C $(LIBFT)
-	@echo "${GREEN}ft_printf fclean${RESET}"
 
 re: fclean all
 
