@@ -3,7 +3,7 @@
 
 This is my push_swap project from 42 school.
 
-In this project, we need to sort a stack of numbers using only a few commands.
+In this project, we need to sort a stack of numbers using only a few commands and two stacks.
 
 ## Main
 
@@ -26,4 +26,4 @@ The second option runs the program with my radix algorithm for sorting.
 
 ## test.py
 
-The `test.py` script generates a string of random integers, ensuring that no two runs have the same integers. You can use it to replace the `INPUT` in the Makefile and run the tests with `make check`.
+The `test.py` script generates a string of random integers, ensuring that no two runs have the same integers. You can use the output to replace the `INPUT` variable in the Makefile and run the tests with `make check`.
