@@ -22,6 +22,7 @@ The second option runs the program with my radix algorithm for sorting.
 - **`make fclean`**: Runs `make clean` and removes the executable and the `libft` library.
 - **`make re`**: Runs `make fclean` and then `make`.
 - **`make check`**: Runs the program with arguments defined by the `INPUT` variable in the Makefile.
+- **`make leak`**: Run the programme with leak commande.
 - **`make header`**: Prints a decorative header.
 
 ## test.py
